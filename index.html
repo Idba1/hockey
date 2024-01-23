@@ -31,13 +31,11 @@
                             <li><a>Blog</a></li>
                             <li><a>Contact</a></li>
                         </ul>
-
                     </div>
                     <div class="items-center justify-center text-4xl text-[#131318]">
                         <a class="btn btn-ghost text-xl ">Hockey’s</a>
                     </div>
                     <div class=" lg:navbar-center hidden lg:flex ">
-
                         <div class="ml-80">
                             <ul tabindex="0" class="">
                                 <div class="flex gap-6 items-center justify-center">
@@ -49,12 +47,9 @@
                                 </div>
                             </ul>
                         </div>
-
                     </div>
                 </div>
-
                 <div class="navbar-end gap-2">
-
                     <button class="hidden lg:flex btn btn-ghost btn-circle ">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -62,14 +57,30 @@
                                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                         </svg>
                     </button>
-
                     <button class="bg-[#FF4240] py-4 px-6 rounded-lg text-white">
                         Get Ticket
                     </button>
                 </div>
             </div>
         </nav>
-
+        <div class="container mx-auto mt-12">
+            <div class="carousel w-full h-4/5">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/banner1.png" class="w-full h-64 lg:h-4/5 " />
+                    <div class="absolute flex gap-5 translate-x-full translate-y-16 lg:translate-x-2 lg:translate-y-24 lg:left-5 lg:right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/banner2.jpg" class="w-full  h-4/5 rounded-2xl" />
+                    <div class="absolute flex gap-5 translate-x-2 translate-y-24 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
 
