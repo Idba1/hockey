@@ -628,36 +628,49 @@
 
 
     <section class="footer bg-[#131318]">
-        <footer class=" p-10  text-white grid lg:grid-cols-4 justify-center items-center container mx-auto">
-            <div>
-                <aside class="flex flex-col">
+        <footer
+            class=" p-10  text-white grid grid-cols-2 lg:grid-cols-4 grid-rows-3 lg:grid-rows-1 justify-center items-center container mx-auto">
+            <div class="row-span-1 col-span-2 lg:col-span-1 mx-auto lg:mx-0">
+                <aside class="flex flex-col gap-y-2">
+                    <h1 class=" text-xl lg:text-2xl text-white font-extrabold">Get In Touch</h1>
                     <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
+                    <div class="flex gap-3">
+                        <img src="Images/message.svg" alt="">
+                        <p>hockeys@support.com</p>
+                    </div>
+                    <div class="flex gap-3">
+                        <img src="Images/phone.svg" alt="">
+                        <p>(+62) 123-321-543</p>
+                    </div>
                 </aside>
             </div>
-            <div>
+            <div class="row-span-1 col-span-1">
                 <nav class="flex flex-col">
-                    <header class="footer-title">Services</header>
-                    <a class="link link-hover">Branding</a>
-                    <a class="link link-hover">Design</a>
-                    <a class="link link-hover">Marketing</a>
-                    <a class="link link-hover">Advertisement</a>
+                    <header class="footer-title">Support</header>
+                    <a class="link link-hover">Help Center</a>
+                    <a class="link link-hover"> FAQ</a>
+                    <a class="link link-hover"> Ticket Support</a>
+                    <a class="link link-hover">Contact Us</a>
                 </nav>
             </div>
-            <div>
+            <div class="row-span-1 col-span-1">
                 <nav class="flex flex-col">
                     <header class="footer-title">Company</header>
                     <a class="link link-hover">About us</a>
                     <a class="link link-hover">Contact</a>
                     <a class="link link-hover">Jobs</a>
-                    <a class="link link-hover">Press kit</a>
+                    <a class="link link-hover">More</a>
                 </nav>
             </div>
-            <div>
-                <nav class="flex flex-col">
-                    <header class="footer-title">Legal</header>
-                    <a class="link link-hover">Terms of use</a>
-                    <a class="link link-hover">Privacy policy</a>
-                    <a class="link link-hover">Cookie policy</a>
+            <div class="row-span-1 col-span-2 mx-auto lg:mx-0 lg:col-span-1">
+                <nav class="flex flex-col mt-6">
+                    <header class="footer-title">Services
+                    </header>
+                    <a class="link link-hover">Academy</a>
+                    <a class="link link-hover">Group Lesson</a>
+                    <a class="link link-hover">Private Lesson</a>
+                    <a class="link link-hover">Hockeys for kids</a>
+                    <a class="link link-hover">Hockeys for Adult</a>
                 </nav>
             </div>
         </footer>
